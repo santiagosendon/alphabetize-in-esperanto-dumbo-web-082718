@@ -37,4 +37,9 @@ new_hash = return_all_keys(new_hash)
     keys_array
 end
 
-end
+alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+ a_to_z_hash = alpha_hash(alphabet) #turns alphabet into hash with values as numbers
+word_hash = make_word_hash(arr) #creates hash from words to be alphabetized.
+word_hash = set_word_hash_values(a_to_z_hash, word_hash) 
+words = sort_words(word_hash) #sorts words
+ end
